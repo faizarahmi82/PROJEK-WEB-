@@ -6,7 +6,7 @@ FORM SISWA
 <br>
 <form>
 Name : <input type="text"name="name">
-<option value="faiza">faiza</option>
+<option value="faiza rahmi">faiza rahmi</option>
 <br><br>
 
 kelas : <select name="kelas">
