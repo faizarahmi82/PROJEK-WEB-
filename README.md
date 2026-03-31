@@ -1,5 +1,3 @@
-# PROJEK-WEB-
-membuat coding dengan bahasa html 
 <html>
 <body>
 FORM SISWA
