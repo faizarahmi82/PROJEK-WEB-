@@ -1,28 +1,33 @@
+<!DOCTYPE html>
 <html>
 <body>
-FORM SISWA
-<br>
-<br>
-<form>
-Name : <input type="text"name="name"><br><br>
 
-kelas : <select name="kelas">
-<option value="X">X</option>
-<option value="XI">XI</option>
-<option value="XII">XII</option></select><br><br>
+<h3>Masukkan Nilai:</h3>
 
-jurusan : <select name="jurusan"><option value="TKJ">TKJ</option><option value="RPL">RPL</option><option value="MM">MM</option>
-<option value="BC">BC</option></select><br><br>
+<input type="number" id="nilaiInput">
+<button onclick="Proses()">Proses</button>
 
-jenis kelamin : <select name="jenis kelamin">
-<option value="LK">LK</option>
-<option value="PR">PR</option></select><br><br>
+<p id="hasil"></p>
 
-alamat : <input type="text" name="alamat"><br><br>
+<script>
+function Proses() {
+    let nilai = document.getElementById("nilaiInput").value;
+    let hasil = "";
 
-no.hp : <input type="text" name="no.hp"><br><br>
+    if (nilai >= 90) {
+        hasil = "A";
+    } else if (nilai >= 75) {
+        hasil = "B";
+    } else if (nilai >= 60) {
+        hasil = "C";
+    } else {
+        hasil = "D";
+    }
 
-<input type="reset" name="batal" value="batal">&nbsp;&nbsp;&nbsp;<input type="submit" name="simpan" value="simpan">
-</form>
+    document.getElementById("hasil").innerHTML = hasil;
+}
+</script>
+
 </body>
+</html>
 </html>
