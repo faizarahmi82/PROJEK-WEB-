@@ -5,7 +5,9 @@ FORM SISWA
 <br>
 <br>
 <form>
-Name : <input type="text"name="name"><br><br>
+Name : <input type="text"name="name">
+<option value="faiza">faiza</option>
+<br><br>
 
 kelas : <select name="kelas">
 <option value="X">X</option>
@@ -14,7 +16,7 @@ kelas : <select name="kelas">
 jurusan : <select name="jurusan"><option value="RPL">RPL</option></select><br><br>
 
 jenis kelamin : <select name="jenis kelamin">
-<option value="PR">PR</option></select><br><br>
+<option value="perempuan">perempuan</option></select><br><br>
 
 <input type="reset" name="batal" value="batal">&nbsp;&nbsp;&nbsp;<input type="submit" name="simpan" value="simpan">
 </form>
